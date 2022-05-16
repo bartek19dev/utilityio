@@ -1,0 +1,32 @@
+{
+    "name": "mesocycle name",
+    "start": "mesocycle start date",
+    "microcycle_order": [1,3,5,7],
+    "microcycles": [
+        {
+            "id": 1,
+            "exercise_order": [5,2,6,1],
+            "exercises": [
+                {
+                    "id": 1,
+                    "name": "exercise 1",
+                    "set_order": [1,7,2,1],
+                    "sets": [
+                        {
+                            "id":1,
+                            "load":"50",
+                            "reps": "20",
+                            "unit":"kg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":2,
+            "exercises": [
+
+            ]
+        }
+    ]
+}
